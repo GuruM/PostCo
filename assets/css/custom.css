@@ -1,0 +1,586 @@
+.navbar {
+	padding-bottom: 15px;
+}
+
+.navbar .brand {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.navbar .install {
+	margin-top: 6px;
+	margin-right: -1px;
+	float: right;
+}
+
+.navbar .fb-like {
+	margin-top: 14px;
+	margin-right: -17px;
+	float: right;
+}
+
+.navbar .twitter-follow-button {
+	margin-top: 14px;
+	margin-right: 10px;
+	float: right;
+}
+
+.navbar .nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 14px;
+	font-weight: 500;
+}
+
+.mac .navbar .nav > li > a {
+	font-weight: 400;
+}
+
+.navbar-inner {
+	min-height: 49px;
+	background-image: url('/assets/themes/twitter/static/navbar-bg.png');
+}
+
+.navbar-inner .container {
+	width: 696px !important;
+}
+
+html, body {
+	font-family: "Roboto", "Open Sans", "Helvetica";
+	font-weight: 400;
+	background-color: #333;
+}
+
+body {
+	background-color: white;
+}
+
+.facebook {
+	color: #3A5997;
+}
+.gmail {
+	color: #D34937;
+}
+.reddit {
+	color: #ED8728;
+}
+.github {
+	color: #474747;
+}
+.flickr {
+	color: #EC0C87;
+}
+.twitter {
+	color: #26A0DA;
+}
+
+footer .legal {
+	font-size: 0.7em;
+	color: #CCC;
+	margin-top: -8px;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Thin-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-ThinItalic-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Light-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-LightItalic-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-LightItalic-webfont.svg#RobotoLightItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Regular-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Italic-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Italic-webfont.svg#RobotoItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Medium-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-MediumItalic-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-MediumItalic-webfont.svg#RobotoMediumItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Bold-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/themes/twitter/static/fonts/Roboto-BoldItalic-webfont.eot');
+    src: url('/assets/themes/twitter/static/fonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),
+         url('/assets/themes/twitter/static/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
+         url('/assets/themes/twitter/static/fonts/Roboto-BoldItalic-webfont.svg#RobotoBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+ 
+
+
+
+.index-slate {
+	padding-top: 20px;
+}
+
+.index-slate .inner-slate {
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.index-slate.first .inner-slate {
+}
+
+.index-slate.first {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.index-slate.first h1 {
+	font-weight: 400;
+	font-size: 4.3em;
+	line-height: 1.7em;
+
+	height:106px;
+	width:800px;
+	margin-bottom: -1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('/assets/themes/twitter/static/headers/stay_informed.png');
+	padding-bottom: 3px;
+}
+
+.index-slate.first h2 {
+	font-weight: 300;
+	color: #333;
+	font-style: italic;
+	font-size: 2.2em;
+}
+
+.index-slate.first img {
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+
+.index-slate.first h1 span{
+	display: none;
+}
+.index-slate.first h2 span{
+	display: none;
+}
+
+.mac .index-slate.first h1{
+	padding-top: 0.1em;
+	background-image: none;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding-bottom: 0;
+}
+.mac .index-slate.first h1 span{
+	display: inline;
+}
+.mac .index-slate.first h2 span{
+	display: inline;
+}
+
+.index-slate.first .sites {
+	padding-top: 14px;
+}
+
+.index-slate.first p {
+	font-weight: 300;
+	margin-top: 15px;
+	font-size: 1.7em;
+	line-height: 1.36em;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 600px;
+	height: 64px;
+	background-image: url('/assets/themes/twitter/static/headers/stay_connected.png');
+}
+
+.index-slate.first p .emphasis {
+	font-weight: 400;
+	font-style: italic;
+}
+
+.index-slate.first p span {
+	display: none;
+}
+
+.mac .index-slate.first p {
+	width: 25.0em;
+	height: auto;
+	background-image: none;
+}
+
+.mac .index-slate.first p span {
+	display: inline;
+}
+
+
+
+.index-slate.second {
+	height: 226px;
+	background-image: url('/assets/themes/twitter/static/index-slate-second-bg.png');
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 1),inset 0 -1px 0 rgba(0, 0, 0, 1);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 1),inset 0 -1px 0 rgba(0, 0, 0, 1);
+	text-shadow: #F9F9F9 1px 1px 3px;
+}
+
+.mac .index-slate.second {
+	text-shadow: #F9F9F9 1px 1px 3px;
+}
+
+.index-slate.second .feature {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
+	padding-left: 90px;
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+}
+
+.index-slate.second .feature.secure {
+	background-image: url('/assets/themes/twitter/static/key_64.png');
+	float: left;
+}
+
+.index-slate.second .feature.easy {
+	background-image: url('/assets/themes/twitter/static/bulb_off_64.png');
+	float: right; 
+}
+
+.index-slate.second .feature h3 {
+	font-size: 2.0em;
+	font-weight: 500;
+	line-height: 1.7em;
+}
+
+.index-slate.second .feature p {
+	padding-top: 6px;
+	font-weight: 400;
+	font-size: 1.5em;
+	width: 13.0em;	
+	line-height: 1.2em;	
+}
+
+.mac .index-slate.second .feature p {
+	font-weight: 300;
+}
+
+.index-slate.footer {
+	color: white;
+	background-color: #333;
+	background-image: url('/assets/themes/twitter/static/footer-bg.png');
+	background-repeat: repeat-x;
+	
+	padding-top: 12px;
+	padding-bottom: 4px;
+}
+
+.index-slate.footer .inner-slate.press {
+	margin-top: 25px;
+}
+
+.inner-slate.press .press {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin-left: 12%;
+	position: relative;
+}
+
+.inner-slate.press .press-quote {
+	display: inline-block;
+	position: relative;
+	left: 100px;
+	margin-top: -14px;
+}
+
+.inner-slate.press p {
+	font-weight: 400;
+	margin-top: 13px;
+	margin-bottom: 3px;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #AAA;
+}
+
+.inner-slate.press .press:hover {
+	opacity: 0.8;
+}
+
+div.inner-slate.press .press a {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:10;
+}
+
+.inner-slate.press span {
+	margin-left: 30px;
+	color: #DDD;
+}
+
+.inner-slate.press img {
+	vertical-align: top;
+}
+
+.footer hr {
+	border-top-color: #222;
+	border-bottom-color: #3D3D3D;
+}
+
+.container .index-slate.footer {
+	position: fixed;
+	bottom: 0;
+}
+.emphasis {
+	font-weight: 600;
+}
+.container .content {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.content {
+	background-color: #FCFCFC;
+}
+
+.content p {
+	padding-bottom: 7px;
+}
+
+.page-header {
+	background-color: #FCFCFC;
+	border-top: 1px solid #EEE;
+	border-bottom: none;
+	padding-top: 16px;
+}
+
+.container h1 {
+	font-weight: 500;
+	color: #CCC;
+}
+
+.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 670px !important;
+}
+
+.span12 {
+	width: auto;
+}
+
+.btn-primary {
+	background-color: #D56B49;
+	background-image: -webkit-linear-gradient(top, #D56B49, #CD3605);
+	border-color: #A12616;
+}
+
+.btn-primary:hover {
+	background-color: #CD3605;	
+}
+
+.modal label {
+	font-weight: 500;
+	font-size: 1.4em;
+}
+
+.modal form {
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.modal form input#required {
+	width: 70%;
+}
+
+.modal {
+	width: 420px;
+	margin: -250px 0 0 -210px;
+}
+
+.modal .note {
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+
+.modal .note .emphasis {
+	color: #D10000;
+}
+
+.modal .btn {
+	margin-bottom: 9px;
+	float: right;
+	width: 20%;
+	margin-right: 15px;
+}
+
+blockquote {
+	margin-top: 2px;
+}
+
+blockquote p {
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+blockquote img {
+	margin-top: -3px;
+	margin-bottom: 5px;
+	padding-right: 4px;
+}
+
+.index-slate.first img.mini-screenshot {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0;
+	display: block;
+}
+
+.index-slate.first img.exclusively {
+	padding: 0;
+	margin-top: -15px;
+	margin-left: auto;
+	margin-right;
+}
+
+.index-slate.first img.separator {
+	display: block;
+	width: 56px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.index-slate.first img.dozens {
+	padding-top: 26px;
+	display: none;
+}
+
+body {
+	margin: 0;
+	background-image: url("../img/bg.paper.png");
+}
+
+section.header {
+	height: 500px;
+	background-image: url("../img/bg.paper.top.png");
+	background-repeat: repeat-x;
+	padding-top: 80px;
+}
+
+section > .centre {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.learn {
+	float: right;
+}
+
+img.showcase {
+	margin-left: auto;
+	margin-right: auto;
+	width: 286px;
+}
+
+img.headlines {
+	margin-top: 15px;
+	width: 593px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centre .top {
+	padding-bottom: 30px;
+}
+
+.centre .middle {
+	text-align: center;
+}
+
+
+.alert {
+	width: 890px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
