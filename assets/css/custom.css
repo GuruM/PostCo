@@ -78,6 +78,28 @@ footer .legal {
 	color: #CCC;
 	margin-top: -8px;
 }
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/Roboto-Condensed-webfont.eot');
+    src: url('../fonts/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Condensed-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Condensed-webfont.svg#RobotoCondensed') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/Roboto-BoldCondensed-webfont.eot');
+    src: url('../fonts/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-BoldCondensed-webfont.woff') format('woff'),
+         url('../fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
  
 @font-face {
     font-family: 'Roboto';
@@ -542,7 +564,7 @@ section.header {
 	height: 450px;
 	background-image: url("../img/bg.paper.top.png");
 	background-repeat: repeat-x;
-	padding-top: 80px;
+	padding-top: 70px;
 }
 
 section > .centre {
@@ -580,10 +602,15 @@ img.headlines {
 
 section.cases {
 	color: white;
-	height: 202px;
+	height: 168px;
 	background-image: url("../img/bg.stitch.png"), url("../img/bg.ribbon.png");
 	background-repeat: repeat-x, repeat;
 	background-position: 0px 2px, 0px 0px;
+}
+
+section.cases .centre {
+	width: 700px;
+	padding-left: 150px;
 }
 
 .case {
@@ -593,20 +620,15 @@ section.cases {
 	display: inline-block;
 	width: 218px;
 	font-weight: 300;
-	font-size: 1.8em;
-	line-height: 1.2em;
+	font-size: 1.6em;
+	line-height: 1.26em;
 
 	text-shadow: 1px 1px #458097;
 	margin-left:30px;
 }
 
-
-section.cases .centre {
-	padding-left:50px;
-}
-
 .case.newsletter {
-	padding-left: 50px;
+	padding-left: 70px;
 }
 
 .case.travel {
@@ -630,14 +652,35 @@ section.cases .centre {
 section.footer {
 	padding-top: 10px;
 	min-height: 50px;
+	font-family: 'Roboto Condensed';
+	color: #163D61;
 }
 
 section.footer .copyright {
 	float: left;
 }
 
+section.footer .copyright span {
+	font-weight: 500;
+}
+
 section.footer .links {
 	float: right;
+}
+
+section.footer a{
+	color: #163D61;
+	font-weight: 500;
+	margin-right: 14px;
+	text-decoration: none;
+}
+
+section.footer a:hover {
+	color: #1E5B87;
+}
+
+section.footer .links a+a{
+	margin-right: 0;
 }
 
 
